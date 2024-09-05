@@ -50,6 +50,9 @@ cleanup_old_container_and_images "$NGINX_CONTAINER_NAME" "$NGINX_OLD_IMAGES_NAME
 cleanup_old_container_and_images "$CERTBOT_CONTAINER_NAME" "$CERTBOT_OLD_IMAGES_NAME"
 
 
+# Docker Compose 파일이 있는 디렉토리로 이동
+cd /result/docker-build
+
 # Docker Compose 빌드
 sudo docker-compose build
 
