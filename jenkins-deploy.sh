@@ -15,7 +15,7 @@ NGINX_OLD_IMAGES_NAME=nginx
 NGINX_CONTAINER_NAME=nginx_server
 REDIS_OLD_IMAGES_NAME=redis
 # Certbot 컨테이너, 이미지 이름
-CERTBOT_CONTAINER_NAME=cerbot
+CERTBOT_CONTAINER_NAME=certbot
 CERTBOT_OLD_IMAGES_NAME=certbot/certbot
 
 
