@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# App 컨테이너, 이미지 이름
+# 여기만 수정해서 사용하면됨
 APP_CONTAINER_NAME=generator-web-server-app
-APP_OLD_IMAGES_NAME=generator-web-server_app
+
+# App 컨테이너, 이미지 이름
+APP_OLD_IMAGES_NAME=docker-build_app
 # MySQL 컨테이너, 이미지 이름
 MYSQL_CONTAINER_NAME=mysql
 MYSQL_OLD_IMAGES_NAME=mysql
